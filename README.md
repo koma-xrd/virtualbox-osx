@@ -9,6 +9,7 @@
  - installation only with 2 cpu
  - post installation steps:
 
+```
 cd "C:\Program Files\Oracle\VirtualBox\"
 .\VBoxManage.exe registervm 'C:\Users\fi87roy\VirtualBox VMs\osx13\osx13.vbox'
 
@@ -20,5 +21,6 @@ cd "C:\Program Files\Oracle\VirtualBox\"
 .\VBoxManage setextradata "osx13" "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 1
 
 
- - panic reboots
+// panic reboots
 .\VBoxManage setextradata "osx13" "VBoxInternal/TM/TSCMode" "RealTSCOffset"
+```
